@@ -10,6 +10,7 @@ public class StartTest {
     @BeforeMethod
     public void preCondition() {
         wd = new ChromeDriver();
+        // wd.get("https://demoqa.com");
         wd.navigate().to("https://demoqa.com/");
     }
     @Test
